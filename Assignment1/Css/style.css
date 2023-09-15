@@ -84,6 +84,15 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.search {
+  float: right;
+}
+.searchIcon {
+  font-size: 28px !important;
+  font-weight: 400 !important;
+  margin: 0.1rem 0.1rem !important;
+}
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
     display: none;
@@ -209,7 +218,9 @@ body {
   text-align: center;
   font-size: xx-large;
   right: 1rem;
-  bottom: -1rem;
+  margin-bottom: 3rem;
+  /* bottom: 0.5rem; */
+  z-index: 1;
 }
 .addNew > a {
   text-decoration: none;
