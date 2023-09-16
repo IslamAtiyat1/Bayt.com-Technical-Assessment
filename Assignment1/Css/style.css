@@ -385,7 +385,7 @@ form > input:focus {
   background-color: black;
   right: 1rem;
   padding: 0.7rem;
-  margin-bottom: 10%;
+  margin-bottom: 12%;
 }
 .Up {
   background-color: rgb(255, 255, 255);
@@ -400,7 +400,7 @@ form > input:focus {
     margin: auto;
     padding-top: 50px;
     text-align: center;
-    height: 850px;
+    height: 1000px;
   }
   .employees {
     display: flex;
@@ -554,7 +554,7 @@ form > input:focus {
     margin: auto;
     padding-top: 50px;
     text-align: center;
-    height: 1800px;
+    height: 2100px;
   }
   .employees {
     display: flex;
@@ -612,7 +612,7 @@ form > input:focus {
     background-color: #333;
     color: white;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 35px;
     /* margin: 10px; */
     font-size: large;
   }
@@ -694,6 +694,20 @@ form > input:focus {
     border: unset;
     padding: 0.7rem;
     font-size: 20px;
+    cursor: pointer;
+  }
+  .Arrow-UP {
+    position: absolute;
+    background-color: black;
+    right: 1rem;
+    padding: 0.7rem;
+    margin-bottom: 25%;
+  }
+  .Up {
+    background-color: rgb(255, 255, 255);
+    padding: 0.1rem;
+    border-radius: 1rem;
+    height: 1.7rem;
     cursor: pointer;
   }
 }
