@@ -21,9 +21,9 @@ function isValueLessThanTen(element) {
   return element < 10;
 }
 
-var array1 = [2, 5, 6, 7, 8, 9];
-var array2 = [21, 1, 2, 9];
-var array3 = [2, 1, 24, 8, 2, 9];
+var array1 = [6, 5, 21, 5];
+var array2 = [1, 1, 6, 9];
+var array3 = [2, 1, 2, 9, 32, 3];
 var result1 = checkCondition(array1, isValueLessThanTen);
 var result2 = checkCondition(array2, isValueLessThanTen);
 var result3 = checkCondition(array3, isValueLessThanTen);
