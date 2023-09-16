@@ -219,7 +219,7 @@ body {
   text-align: center;
   font-size: xx-large;
   right: 1rem;
-  margin-bottom: 3rem;
+  margin-top: 36rem;
   /* bottom: 0.5rem; */
   z-index: 1;
 }
@@ -257,7 +257,7 @@ body {
 }
 .contact i {
   color: #009688;
-  padding-top: 20px;
+  padding-top: 27px;
 }
 .info {
   display: flex;
@@ -385,7 +385,7 @@ form > input:focus {
   background-color: black;
   right: 1rem;
   padding: 0.7rem;
-  margin-bottom: 12%;
+  margin-bottom: 11%;
 }
 .Up {
   background-color: rgb(255, 255, 255);
@@ -496,7 +496,7 @@ form > input:focus {
   }
   .contact i {
     color: #009688;
-    padding-top: 20px;
+    padding-top: 30px;
   }
   .info {
     display: flex;
@@ -645,7 +645,7 @@ form > input:focus {
   }
   .contact i {
     color: #009688;
-    padding-top: 20px;
+    padding-top: 30px;
   }
   .info {
     display: flex;
