@@ -26,7 +26,7 @@ function isValueLessThanNine(element) {
   return element < 9;
 }
 
-var array1 = [6, 5, 1, 5];
+var array1 = [6, 4, 1, 5];
 var array2 = [1, 1, 6, 9];
 var array3 = [2, 1, 2, 9, 32, 3];
 var result1 = all(array1, isValueLessThanNine);
