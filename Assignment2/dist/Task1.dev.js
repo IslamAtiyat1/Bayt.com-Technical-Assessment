@@ -11,25 +11,30 @@
 // I have provided a solution for the problem you mentioned. However,
 // keep in mind that there are multiple ways to solve it, and the solution I
 //  provided is just one approach
-function checkCondition(array, conditionFunction) {
-  return array.every(function (element) {
-    return conditionFunction(element);
-  });
+// Solution:
+function all(array, conditionFunction) {
+  for (var i = 0; i < array.length; i++) {
+    if (!conditionFunction(array[i])) {
+      return false;
+    }
+  }
+
+  return true;
 }
 
-function isValueLessThanTen(element) {
-  return element < 10;
+function isValueLessThanNine(element) {
+  return element < 9;
 }
 
-var array1 = [6, 5, 21, 5];
+var array1 = [6, 5, 1, 5];
 var array2 = [1, 1, 6, 9];
 var array3 = [2, 1, 2, 9, 32, 3];
-var result1 = checkCondition(array1, isValueLessThanTen);
-var result2 = checkCondition(array2, isValueLessThanTen);
-var result3 = checkCondition(array3, isValueLessThanTen);
+var result1 = all(array1, isValueLessThanNine);
+var result2 = all(array2, isValueLessThanNine);
+var result3 = all(array3, isValueLessThanNine);
 console.log(result1); // true
 
-console.log(result2); // true
+console.log(result2); // false
 
 console.log(result3); // false
 //# sourceMappingURL=Task1.dev.js.map
